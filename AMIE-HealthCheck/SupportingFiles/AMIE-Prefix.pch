@@ -1,0 +1,36 @@
+//
+//  AMIE-Prefix.pch
+//  AMIE-HealthCheck
+//
+//  Created by Abilash Cumulations on 03/10/17.
+//  Copyright © 2017 Abilash. All rights reserved.
+//
+
+#ifndef AMIE_Prefix_pch
+#define AMIE_Prefix_pch
+
+#define SCREEN_WIDTH [UIApplication sharedApplication].keyWindow.frame.size.width
+
+#import <UIKit/UIKit.h>
+#import <UserNotifications/UserNotifications.h>
+#import <FirebaseMessaging/FirebaseMessaging.h>
+#import <HMSegmentedControl/HMSegmentedControl.h>
+#import <FirebaseCore/FirebaseCore.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "MessageData.h"
+#import "MeditationsView.h"
+#import "Constants.h"
+#import "Utilities.h"
+#import "JSQMessage.h"
+#import "AppDelegate.h"
+#import "SuggessionsView.h"
+#import "DefineConstants.h"
+#import "AMIEPushNotifier.h"
+#import "NetworkIntractor.h"
+#import "AMIELoginVC.h"
+#import "DBHandler.h"
+#import "MessageBO.h"
+#import <AWSLex/AWSLex.h>
+#import "AMIEAudioView.h"
+
+#endif /* AMIE_Prefix_pch */
